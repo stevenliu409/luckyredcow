@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+#titlepage {
+    /* margin-top: 240px; */
+    /* margin-left:140px; */
+    height:550px;
+    width: 1920px;
+    display: block;
+    background: url('luckycow.jpg');
+    background-attachment : fixed;
+    /* float: right; */
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#site-title {
+    margin-left: 20%;
+    background-color:rgba(16,171,201,0.75);
+    letter-spacing:5px;
+    font-size: 35pt;
+    font-weight: bold;
+    color:white;
+
+
+}
+
+
+/* #titlepage:hover { */
+/*     margin-left: -20px; */
+/*     margin-top: -1px; */
+/*     height:480px; */
+/*     width: 640px; */
+/*     background: url('welcome.png'); */
+/* } */
+
+#aboutpage {
+    margin-top: 300px;
+    /* margin-left: 50px; */
+    display: block;
+    height:1080px;
+    width: 1920px;
+    /* max-width: 1200px; */
+    background-image: url('bg1.jpg');
+    background-attachment : fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
