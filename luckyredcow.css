@@ -1,5 +1,11 @@
 body {
+    /* zero out padding and margin */
     margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    /* remove horizontal scroll */
     overflow-x: hidden;
 }
 
@@ -17,13 +23,16 @@ body {
     background-position: 50% 50%;
 }
 
-#site-title {
-    margin-left: 20%;
+#titlepage h1 {
+    display: block;
+    width: 700px;
+    padding: 5px 10px;
     background-color:rgba(16,171,201,0.75);
     letter-spacing:5px;
     font-size: 35pt;
     font-weight: bold;
     color:white;
+    text-align: center;
 
 
 }
