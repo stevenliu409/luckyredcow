@@ -27,7 +27,10 @@ body {
   max-height: 100%;
 }
 
-#content {
+#content div {
+  /* Dimensions of image */
+  height:1280px;
+  width: 1920px;
 }
 
 #titlepage {
@@ -63,29 +66,17 @@ body {
 
 #aboutpage {
 
-  /* Dimensions of image */
-  height:1280px;
-  width: 1920px;
-
   /* Background image */
   background-image: url('bg1.jpg');
 }
 
 #travelpage {
 
-  /* Dimensions of image */
-  height:1280px;
-  width: 1920px;
-
   /* Background image */
   background-image: url('about.jpg');
 }
 
 #attractionpage {
-
-  /* Dimensions of image */
-  height:1280px;
-  width: 1920px;
 
   /* Background image */
   background-image: url('bg2.jpg');
