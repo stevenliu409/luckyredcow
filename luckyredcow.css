@@ -27,6 +27,8 @@ body {
   max-height: 100%;
 }
 
+#content {
+}
 
 #titlepage {
 
@@ -36,7 +38,6 @@ body {
   background-attachment : fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-
 }
 
 #titlepage h1 {
@@ -78,5 +79,14 @@ body {
 
   /* Background image */
   background-image: url('about.jpg');
+}
 
+#attractionpage {
+
+  /* Dimensions of image */
+  height:1280px;
+  width: 1920px;
+
+  /* Background image */
+  background-image: url('bg2.jpg');
 }
