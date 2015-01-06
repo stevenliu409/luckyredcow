@@ -1,18 +1,20 @@
-body {
+*{
   /* zero out padding and margin */
   margin: 0;
   padding: 0;
 }
 
-.parallax div {
+.parallax div{
 
   /* remove horizontal scroll */
   overflow-x: hidden;
 
   display: block;
 
+  /* parallax effect */
   background-attachment : fixed;
   background-position: 50% 50%;
+
 
   /* Set image to always fill background */
   -webkit-background-size: cover;
@@ -21,17 +23,12 @@ body {
   background-size: cover;
 
   /* Preserve aspet ratio when zooming in/out */
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 600px;
+  min-height: 600px;
   max-width: 100%;
   max-height: 100%;
 }
 
-#content div {
-  /* Dimensions of image */
-  height:1280px;
-  width: 1920px;
-}
 
 #titlepage {
 
@@ -43,41 +40,70 @@ body {
   background-position: 50% 50%;
 }
 
-#titlepage h1 {
+.title-transparent-layer{
 
+  /* TODO: make the transparent background not cover the whole background */
+
+  position: relative;
   width: 75%;
+  height: 50px;
   padding: 5px 10px;
-  background-color:rgba(255, 0, 0,0.75);
-  letter-spacing:5px;
-  font-size: 35pt;
-  font-weight: bold;
-  color:white;
-  text-align: center;
+  background: rgba(255, 0, 0,0.3);
+
 }
 
+.title-transparent-layer h1 {
 
-/* #titlepage:hover { */
-/*     margin-left: -20px; */
-/*     margin-top: -1px; */
-/*     height:480px; */
-/*     width: 640px; */
-/*     background: url('welcome.png'); */
-/* } */
+  /* TODO: need to make the title italic */
+  letter-spacing:5px;
+  font-size: 35pt;
+  color:white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: italic; /* doesnt work */
+  text-align: center;
+
+}
+
+.transparent-layer{
+
+  /* transparent layer */
+  position:relative;
+  background: rgba(0, 0, 0, 0.3);
+
+  /* TODO: make the transparent background not cover the whole picture */
+
+  position: center;
+}
+
+.transparent-layer h1{
+  /* text for transparent layer */
+    text-align: center;
+    color:white;
+    font-size: 5em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 
 #aboutpage {
 
   /* Background image */
   background-image: url('bg1.jpg');
+  z-index: -1;
+
 }
 
 #travelpage {
 
   /* Background image */
-  background-image: url('bg3.jpg');
+  background-image: url('bg3-2.jpg');
+  z-index: -1;
+
 }
 
 #attractionpage {
 
   /* Background image */
-  background-image: url('bg4.jpg');
+  background-image: url('bg4bw2.jpg');
+  z-index: -1;
+
 }
