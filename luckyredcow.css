@@ -4,14 +4,14 @@
   padding: 0;
 }
 
-.parallax div{
+ .parallax div{
 
   /* remove horizontal scroll */
   overflow-x: hidden;
 
   display: block;
 
-  /* parallax effect */
+  /*   parallax effect */
   background-attachment : fixed;
   background-position: 50% 50%;
 
@@ -22,11 +22,6 @@
   -o-background-size: cover;
   background-size: cover;
 
-  /* Preserve aspet ratio when zooming in/out */
-  min-width: 600px;
-  min-height: 600px;
-  max-width: 100%;
-  max-height: 100%;
 }
 
 
@@ -40,26 +35,20 @@
   background-position: 50% 50%;
 }
 
-.title-transparent-layer{
+.title-transparent-layer {
 
-  /* TODO: make the transparent background not cover the whole background */
-
-  position: relative;
-  width: 75%;
-  height: 50px;
-  padding: 5px 10px;
+  margin-top: 20px;
+  padding: 5px 0px;
   background: rgba(255, 0, 0,0.3);
-
+  width: 75%;
 }
 
 .title-transparent-layer h1 {
 
-  /* TODO: need to make the title italic */
   letter-spacing:5px;
   font-size: 35pt;
   color:white;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: italic; /* doesnt work */
   text-align: center;
 
 }
@@ -76,6 +65,7 @@
 }
 
 .transparent-layer h1{
+
   /* text for transparent layer */
     text-align: center;
     color:white;
@@ -83,6 +73,17 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.content div{
+
+  /* Preserve aspet ratio when zooming in/out*/
+  min-width: 600px;
+  min-height: 600px;
+  width: 1980px;
+  height:1290px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
 
 #aboutpage {
 
