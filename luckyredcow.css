@@ -38,7 +38,7 @@
 
   margin-top: 20px;
   padding: 5px 0px;
-  background: rgba(255, 0, 0,0.3);
+  background: rgba(255, 0, 0,0.75);
   width: 75%;
 }
 
@@ -79,16 +79,12 @@
   min-height: 600px;
   max-width: 100%;
   max-height: 100%;
-  position: relative;
 }
 
 
 #navbar {
-  /* TODO: need to fix nav bar with scrollspy */
-  /* Scrollspy does not work */
-  border-bottom: 1px solid red;
-  background: #ddd;
-  width: 100%;
+  /* TODO: change scrollspy into dots */
+  /* TODO: make nav bar on rightside */
   top: 0;
   position: fixed;
   z-index: 1;
@@ -97,14 +93,15 @@
 #navbar li {
   padding: 10px;
   float: left;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 #navbar a {
   text-decoration: none;
 }
 
-#navbar .active a {
-color: red;
+#navbar a:active {
+  color: red;
 }
 
 #aboutpage {
