@@ -80,7 +80,7 @@ html, body{
 
 /************* Content CSS ****************/
 
-.parallax {
+.resize {
   /* remove horizontal scroll */
   overflow-x: hidden;
 
@@ -135,12 +135,18 @@ html, body{
   background-image: url('bg3-2.jpg');
 }
 
-#attractionpage {
+
+
+#attraction-one {
   background-image: url('bg4bw2.jpg');
 }
+#attraction-three {
+  background-image: url('about.jpg');
+}
+
+
 
 #cuisine {
   background-image: url('bg6.jpg');
 }
-
 /*****************************************/
