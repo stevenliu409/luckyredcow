@@ -128,25 +128,31 @@ html, body{
 /* TODO: Add image carousel to each section */
 
 #aboutpage {
-  background-image: url('bg1.jpg');
+  background-image: url('fuku6.jpg');
 }
 
 #travelpage {
-  background-image: url('bg3-2.jpg');
+  background-image: url('fuku3.jpg');
 }
 
 
 
 #attraction-one {
-  background-image: url('bg4bw2.jpg');
+  background-image: url('fuku1.jpg');
+}
+#attraction-two {
+  background-image: url('fuku2.jpg');
 }
 #attraction-three {
-  background-image: url('about.jpg');
+  background-image: url('fuku4.jpg');
 }
 
 
 
-#cuisine {
-  background-image: url('bg6.jpg');
+#festival-one {
+  background-image: url('fuku7.jpg');
+}
+#festival-two {
+  background-image: url('fuku5.jpg');
 }
 /*****************************************/

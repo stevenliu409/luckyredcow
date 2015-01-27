@@ -32,7 +32,7 @@
       <li><a href="#aboutpage">About</a></li>
       <li><a href="#travelpage">Travel</a></li>
       <li><a href="#attractionpage">Attractions</a></li>
-      <li><a href="#cuisine">Cuisine</a></li>
+      <li><a href="#festivalpage">Festivals</a></li>
     </ul>
   </nav>
 
@@ -52,7 +52,9 @@
     <div class="transparent-layer"><h1>Travel</h1></div>
   </div>
 
-  <div id="attractionpage" class="resize carousel slide" data-ride="carousel">
+
+  <!-- Attraction Section -->
+  <div id="attractionpage" class="resize carousel slide" data-ride="carousel" data-interval="">
     <!-- Carousel indicators -->
     <ol class="carousel-indicators">
       <li data-target="#attractionpage" data-slide-to="0" class="active"></li>
@@ -64,8 +66,8 @@
       <div id="attraction-one" class= "active item resize">
         <div class="transparent-layer"> <h1>Attractions</h1> </div>
       </div>
-      <div class="item resize">
-        <h2>Slide 2</h2>
+
+      <div id="attraction-two" class="item resize">
         <div class="carousel-caption">
           <h3>Second slide label</h3>
           <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
@@ -90,9 +92,35 @@
   </div>
 
 
+  <!-- Festival Section -->
+  <div id="festivalpage" class="resize carousel slide" data-ride="carousel" data-interval="">
+    <ol class="carousel-indicators">
+      <li data-target="#attractionpage" data-slide-to="0" class="active"></li>
+      <li data-target="#attractionpage" data-slide-to="1"></li>
+    </ol>
 
-  <div id="cuisine" class="resize carousel slide" data-ride="carousel">
-    <div class="transparent-layer"> <h1>Cuisine</h1> </div>
+    <div class="resize carousel-inner">
+
+      <div id="festival-one" class= "active item resize">
+        <div class="transparent-layer"> <h1>Festivals</h1> </div>
+      </div>
+
+      <div id="festival-two" class="item resize">
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#festivalpage" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#festivalpage" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
   </div>
 </body>
 </html>
