@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-
-  // hide #back-top first
-  $("#back-to-top").hide();
-
   // Back-to-top button scrolling animation javascript
 
     $(window).scroll(function () {
@@ -35,6 +31,12 @@ $(document).ready(function() {
 
       $('html,body').animate({scrollTop: jumpToTag.offset().top}, 800, continueScroll);
       return false;
+    });
+
+    $('#fullpage').fullpage({
+      loopTop: true,
+      loopBottom: true,
+      scrollBar: true
     });
 
 });
