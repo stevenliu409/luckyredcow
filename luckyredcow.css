@@ -162,6 +162,18 @@ html, body{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.text-layer{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  background: rgba(0, 0, 0, 0.3);
+
+  margin-top: 52px;
+  height: 10%;
+  width: 25%;
+  position: center;
+}
+
 /************* Change background ****************/
 
 #aboutpage {
