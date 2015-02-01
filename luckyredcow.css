@@ -164,17 +164,18 @@ html, body{
 
 .text-layer{
   margin-top: 52px;
-  margin-left: 10%;
-  padding: 10px;
-  height: 20%;
+  margin-left: 15%;
+  padding: 20px;
+  height: 55%;
   width: 70%;
   background: rgba(255, 255, 255, 0.3);
+
 }
 
 .text-layer p {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   color: black;
 }
 
