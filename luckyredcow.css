@@ -179,14 +179,13 @@ html, body{
   color: black;
 }
 
-.travel-text-layer{
+.travel-text-layer {
   margin-top: 52px;
   margin-left: 15%;
   padding: 20px;
   height: 55%;
   width: 70%;
-  background: rgba(104, 0, 0, 0.5);
-
+  background: rgba(104, 0, 0, 0.6);
 }
 
 .travel-text-layer p {
@@ -196,7 +195,7 @@ html, body{
   color: white;
 }
 
-.attraction-text-layer{
+.attraction-text-layer {
   margin-top: 52px;
   margin-left: 15%;
   padding: 20px;
@@ -213,13 +212,13 @@ html, body{
   color: white;
 }
 
-.festival-text-layer{
+.festival-text-layer {
   margin-top: 52px;
   margin-left: 15%;
   padding: 20px;
   height: 35%;
   width: 70%;
-  background: rgba(148, 0, 211, 0.4);
+  background: rgba(128, 0, 128, 0.6);
 
 }
 
@@ -229,6 +228,7 @@ html, body{
   text-align: left;
   color: white;
 }
+
 /************* Change background ****************/
 
 #aboutpage {
